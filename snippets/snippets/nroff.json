@@ -1,0 +1,17 @@
+{
+    ".IP \\[bu]": {
+        "prefix": "\\bu",
+        "body": ".IP \\[bu] 2\n$0\n",
+        "description" : "Bulleted list item"
+    },
+    ".IP \\[bu]2": {
+        "prefix": "\\2bu",
+        "body": ".RS\n.IP \\[bu] 2\n$0\n.RE\n",
+        "description" : "Bulleted list item, indented"
+    },
+    "bold": {
+        "prefix": "\\bold",
+        "body": ".B \"$0\"\n",
+        "description" : "Bold text"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    ".IP \[bu] x":{
+        "prefix": "bu",
+        "body": ".IP \[bu] $0\n",
+        "description": "Bulleted list, with space"
+    },
+    "#!/usr/bin/env python": {
+        "prefix": "env",
+        "body": "#!/usr/bin/env python\n$0",
+        "description" : "Adds shebang line for default python interpreter."
+    }
+}
